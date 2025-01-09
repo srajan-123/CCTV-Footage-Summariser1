@@ -32,7 +32,7 @@ The system includes:
 4. **Video Summarization**  
 5. **Streamlit-Based User Interface**  
 
-![Architecture Diagram]("[C:\Users\ADMIN\OneDrive\Attachments\Pictures\Picture1.png](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/ef0adc467dde91e88f5a7f131a75c423af3eeb9c/Picture1.png)")  
+![Architecture Diagram]("[[C:\Users\ADMIN\OneDrive\Attachments\Pictures\Picture1.png](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/ef0adc467dde91e88f5a7f131a75c423af3eeb9c/Picture1.png)](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture1.png?raw=true)")  
 *(Add the architecture diagram for better visualization.)*
 
 ---
@@ -51,9 +51,4 @@ The system includes:
 
 ---
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/cctv-object-tracker.git
-   cd cctv-object-tracker
