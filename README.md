@@ -32,7 +32,7 @@ The system includes:
 4. **Video Summarization**  
 5. **Streamlit-Based User Interface**  
 
-![Architecture Diagram]("[[C:\Users\ADMIN\OneDrive\Attachments\Pictures\Picture1.png](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/ef0adc467dde91e88f5a7f131a75c423af3eeb9c/Picture1.png)](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture1.png?raw=true)")  
+![Architecture Diagram](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture1.png?raw=true)  
 *(Add the architecture diagram for better visualization.)*
 
 ---
@@ -50,5 +50,13 @@ The system includes:
   - Minimum 8 GB RAM  
 
 ---
+## Input and Output Videos
+
+### Input Video
+[![Input Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/username/repo-name/blob/main/path/to/input_video.mp4?raw=true)
+
+### Output Video
+[![Output Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/username/repo-name/blob/main/path/to/output_video.mp4?raw=true)
+
 
 
