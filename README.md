@@ -32,8 +32,10 @@ The system includes:
 4. **Video Summarization**  
 5. **Streamlit-Based User Interface**  
 
+---
+## Workflow Diagram
 ![Architecture Diagram](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture1.png?raw=true)  
-*(Add the architecture diagram for better visualization.)*
+
 
 ---
 
@@ -50,6 +52,10 @@ The system includes:
   - Minimum 8 GB RAM  
 
 ---
+## Event Logs generated
+![logs](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture4.png?raw=true)   ![logs2](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture3.png?raw=true)
+
+ 
 ## Input and Output Videos
 
 ### Input Video
