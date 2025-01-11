@@ -59,10 +59,10 @@ The system includes:
 ## Input and Output Videos
 
 ### Input Video
-[![Input Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/username/repo-name/blob/main/path/to/input_video.mp4?raw=true)
+[![Input Video](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/picture6.png?raw=true)](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/input1%20(2).mp4)
 
 ### Output Video
-[![Output Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/username/repo-name/blob/main/path/to/output_video.mp4?raw=true)
+[![Output Video](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture5.png?raw=true)](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/input1_summary%20(1).mp4)
 
 
 
