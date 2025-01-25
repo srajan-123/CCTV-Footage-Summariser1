@@ -59,9 +59,11 @@ The system includes:
 ## Input and Output Videos
 
 ### Input Video
+Link: https://drive.google.com/drive/folders/1VmblCRyXOPYTCUG-W2q1PCjQ14HB6SXs?usp=sharing
 [![Input Video](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/picture6.png?raw=true)](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/input1%20(2).mp4)
 
 ### Output Video
+Link: https://drive.google.com/file/d/1W-7fhsEXZm4N43eQvC024mrzFKOy0Api/view?usp=sharing
 [![Output Video](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture5.png?raw=true)](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/input1_summary%20(1).mp4)
 
 
