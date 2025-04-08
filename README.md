@@ -1,70 +1,30 @@
-# CCTV Object Tracker and Summarizer
+## CCTV Footage Optimization
+This project Summarize hours of footage captured by static CCTV cameras into a concise clip that presents all events as if they are happening simultaneously, complete with timestamps. It utilizes video processing techniques, including YOLO-based object detection, custom tracking algorithms, and video summarization methods, to identify, track, and summarize moving objects efficiently
 
-The **CCTV Object Tracker and Summarizer** is an intelligent surveillance system designed to enhance security monitoring. By leveraging state-of-the-art deep learning models, it improves object detection, tracking, and summarization in video footage. This project significantly reduces storage needs, facilitates faster analysis, and offers reliable performance for real-world surveillance environments.
+## Problem
+In today's world, many CCTV cameras are increasingly being used in homes for security. However, reviewing many hours of footage to spot suspicious activity can be a time-consuming and tedious process. Storing these lengthy videos also requires significant memory, often leading to reduced video resolution to save space. There is a need for a solution that can condense long footage into short clips while preserving key events.
 
----
+## Working of Project:
+1. Video Preprocessing
+- The video is read using OpenCV, and the frames per second (fps) are extracted.
+A background model is created using cv2.accumulateWeighted for overlaying tracked objects.
+Frames are processed one by one until the video ends.
+2. Object Detection
+- The YOLOv8 model detects objects in each frame, filtering those of interest (e.g., people, cars) with a confidence score > 0.5.
+Bounding box coordinates and object labels are extracted for further processing.
+3. Object Tracking
+- Objects are tracked across frames using spatial proximity and temporal continuity.
+A custom algorithm links bounding boxes, tracks movements, and handles object disappearance.
+Classes like Box and MovingObject store tracking data.
+4. Video Summarization
+- A summarized video is created by overlaying tracked objects with labels and timestamps on the background frame.
+Frames are compiled into a short video using OpenCV's cv2.VideoWriter.
+5. Logging and Reporting
+- A log tracks each object's type, appearance time, disappearance time, and duration.
+Logs are displayed in a UI and stored for analysis, with error handling for failed detections or frame reads.
 
+## Results :
+![demo](https://github.com/user-attachments/assets/3f52e0d5-faab-4693-b12d-0de6767351e7)
 
-## Introduction
-
-Surveillance systems generate vast amounts of data, making efficient analysis challenging. Traditional motion-based detection methods struggle with accuracy in dynamic environments. The **CCTV Object Tracker and Summarizer** overcomes these limitations by implementing advanced object detection models like YOLOv8, ensuring precision, robustness, and usability.
-
----
-
-## Features
-
-- **High Accuracy**: Real-time object detection with YOLOv8.  
-- **Object Tracking**: Maintains object identity across frames, even in occlusions.  
-- **Event Summarization**: Generates concise video summaries highlighting key events.  
-- **Custom Metrics**: Evaluates performance without relying on standard datasets.  
-- **User-Friendly Interface**: Simplified interaction through a web-based UI.  
-
----
-
-## System Architecture
-
-### Design Overview
-
-The system includes:  
-1. **Video Input Handling**  
-2. **Object Detection and Tracking**  
-3. **Event Logging**  
-4. **Video Summarization**  
-5. **Streamlit-Based User Interface**  
-
----
-## Workflow Diagram
-![Architecture Diagram](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture1.png?raw=true)  
-
-
----
-
-## Technologies Used
-
-- **Programming Language**: Python 3.x  
-- **Libraries and Frameworks**:  
-  - OpenCV (Video processing)  
-  - YOLOv8 (Object detection)  
-  - NumPy (Numerical computations)  
-  - Streamlit (User interface)  
-- **Hardware Requirements**:  
-  - Multi-core CPU (GPU recommended)  
-  - Minimum 8 GB RAM  
-
----
-## Event Logs generated
-![logs](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture4.png?raw=true)   ![logs2](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture3.png?raw=true)
-
- 
-## Input and Output Videos
-
-### Input Video
-Link: https://drive.google.com/drive/folders/1VmblCRyXOPYTCUG-W2q1PCjQ14HB6SXs?usp=sharing
-[![Input Video](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/picture6.png?raw=true)](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/input1%20(2).mp4)
-
-### Output Video
-Link: https://drive.google.com/file/d/1W-7fhsEXZm4N43eQvC024mrzFKOy0Api/view?usp=sharing
-[![Output Video](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/Picture5.png?raw=true)](https://github.com/srajan-123/CCTV-Footage-Summariser1/blob/main/input1_summary%20(1).mp4)
-
-
-
+### Workflow
+![image](https://github.com/user-attachments/assets/915bca55-faf4-421f-beb8-c9a0564c298a)
